@@ -1,0 +1,27 @@
+POST http://localhost:3001/products
+Content-Type: application/json
+
+{
+  "name":"Ola!",
+  "price": 3
+}
+
+
+###
+GET http://localhost:3001/products
+
+###
+GET http://localhost:3001/products/ff6a40c5-6be6-4015-bb27-4d21921fe6d4
+
+
+###
+PUT http://localhost:3001/products/aef689a7-bd3b-478b-80ba-11935e73ef10
+content-type: application/json
+
+{
+  "name":"Caderno Preto",
+  "price": 12
+}
+
+###
+DELETE http://localhost:3001/products/264d14e9-b024-498b-839d-9d0b344abc94
